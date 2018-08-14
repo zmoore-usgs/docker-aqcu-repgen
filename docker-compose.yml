@@ -1,0 +1,8 @@
+---
+version: '3.4'
+
+
+services:
+  repgen:
+    build: .
+    image: aqcu-repgen:0.0.1

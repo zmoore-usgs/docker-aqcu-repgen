@@ -4,7 +4,7 @@ ENV REPGEN_VERSION=master
 
 # Get Repgen dependency installs
 RUN mkdir -p /tmp/install/repgen_description_dir && \
-  wget -O /tmp/install/repgen_description_dir/DESCRIPTION https://raw.githubusercontent.com/USGS-R/repgen/${REPGEN_VERSION}/DESCRIPTION \
+  wget -O /tmp/install/repgen_description_dir/DESCRIPTION https://raw.githubusercontent.com/USGS-R/repgen/${REPGEN_VERSION}/DESCRIPTION && \
   wget -O /tmp/install/installPackages.R https://raw.githubusercontent.com/USGS-R/repgen/${REPGEN_VERSION}/inst/extdata/installPackages.R
 
 # Install Repgen
