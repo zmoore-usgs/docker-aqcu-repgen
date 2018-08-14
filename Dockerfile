@@ -1,4 +1,4 @@
-FROM cidasdpdasartip.cr.usgs.gov:8447/owi-docker/aqcu/rserve:latest
+FROM cidasdpdasartip.cr.usgs.gov:8447/aqcu/rserve:latest
 
 ENV REPGEN_VERSION=master
 
