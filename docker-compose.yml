@@ -1,8 +1,8 @@
 ---
-version: '3.4'
+version: '3.5'
 
 
 services:
   repgen:
     build: .
-    image: aqcu-repgen:0.0.1
+    image: aqcu-repgen:latest
