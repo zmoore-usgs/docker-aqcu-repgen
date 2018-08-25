@@ -6,3 +6,5 @@ services:
   repgen:
     build: .
     image: aqcu-repgen:latest
+    ports:
+      - "6311:6311"
