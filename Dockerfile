@@ -1,6 +1,6 @@
 FROM cidasdpdasartip.cr.usgs.gov:8447/aqcu/rserve:latest
 
-ENV REPGEN_VERSION=master
+ENV REPGEN_VERSION=v1.10.11
 
 # Get Repgen dependency installs
 RUN mkdir -p /tmp/install/repgen_description_dir && \
