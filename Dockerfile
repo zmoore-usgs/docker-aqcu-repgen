@@ -1,8 +1,7 @@
-#FROM cidasdpdasartip.cr.usgs.gov:8447/aqcu/rserve:latest
-FROM aqcu-rserve:0.0.1
+FROM cidasdpdasartip.cr.usgs.gov:8447/aqcu/rserve:latest
 
 ENV REPGEN_VERSION=master
-ENV GSPLOT_VERSION_DEFAULT 0.8.1
+ENV GSPLOT_VERSION_DEFAULT=0.8.1
 
 # Get GSPlot dependency installs
 RUN mkdir -p /tmp/install/gsplot_description_dir && \
