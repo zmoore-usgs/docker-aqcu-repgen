@@ -1,6 +1,6 @@
 FROM cidasdpdasartip.cr.usgs.gov:8447/aqcu/rserve:latest
 
-ENV REPGEN_VERSION=v1.12.1
+ENV REPGEN_VERSION=master
 ENV GSPLOT_VERSION_DEFAULT=0.8.1
 
 # Get GSPlot dependency installs
